@@ -1,0 +1,71 @@
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+img {
+    width: 100%;
+}
+i {
+    cursor: pointer;
+}
+#container{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 50%;
+}
+.fa-ellipsis-vertical {
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.header-left {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+}
+.iconHTML{
+    font-size: 25px;
+}
+.headerText p{
+    font-size: 10px;
+    margin: 0 5px;
+}
+.header-right {
+    padding: 10px;
+    width: 50%;
+    text-align: right;
+}
+.icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons .fa-solid{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:hover {
+        opacity: 1;
+    }
+}
+.iconInsta {
+    position: relative;
+    display: inline-block;
+} 
+.icons .fa-regular{
+    &:hover {
+        opacity: 0;
+    }
+}
+.icons i {
+    transition: ease-in 0.3s;
+    font-size: 24px;
+    margin: 0 2px;
+}
+.photoText {
+    padding: 10px;
+}
